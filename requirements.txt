@@ -1,0 +1,3 @@
+flask
+hackerman
+flask-cors
