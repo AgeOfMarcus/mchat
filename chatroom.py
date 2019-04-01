@@ -34,7 +34,7 @@ class Chatroom(object):
     
     def build_app(self):
         app = Flask(__name__)
-	CORS(app)
+        CORS(app)
         @app.route("/")
         def app_main():
             return jsonify(self.messages)
